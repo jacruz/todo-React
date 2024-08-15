@@ -1,4 +1,4 @@
-import { todoList } from "../assets/data";
+import { todoList } from "../data/data";
 import {createContext, useReducer} from "react";
 
 export const ItemsContext = createContext(null);
