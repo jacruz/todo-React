@@ -1,0 +1,16 @@
+@mixin btnHoverCustom($color){
+    color: $color;
+}
+
+
+@mixin inputTxtCustom($borderColor, $bkgColor, $width){
+    border: 1px solid $borderColor;
+    border-radius: 5px;
+
+    background-color: $bkgColor;
+    padding: 0.8em 10px;
+    color: $white;
+
+    margin: 0 10px 0 0;
+    width: $width;
+}

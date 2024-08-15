@@ -1,0 +1,7 @@
+.input-1{
+    @include inputTxtCustom($dark, $black, 100%);
+}
+
+.input-2{
+    @include inputTxtCustom($bright, $black, 70%);
+}

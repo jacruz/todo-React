@@ -1,0 +1,39 @@
+.btn-1{
+    cursor: pointer;
+    border: 2px solid $dark;
+    border-radius: 10px;
+
+    background-color: $yellow-dark;
+    padding: 0.8em 15px;
+
+}
+
+.btn-icon{
+    cursor: pointer;
+    border: none;
+
+    background-color: transparent;
+    padding: 0.5em 5px;
+    
+}
+
+.btn-icon-hover-green{
+    :hover{
+        @include btnHoverCustom($green);
+    }
+}
+.btn-icon-hover-yellow{
+    :hover{
+        @include btnHoverCustom($yellow-dark);
+    }
+}
+.btn-icon-hover-red{
+    :hover{
+        @include btnHoverCustom($red);
+    }
+}
+.btn-icon-hover-bright{
+    :hover{
+        @include btnHoverCustom($bright);
+    }
+}

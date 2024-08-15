@@ -1,0 +1,19 @@
+html{
+    background: $dark;
+}
+#root{
+    display: flex;
+    justify-content: center;
+}
+.app{
+    background-color: $dark;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+
+    margin: 0 10px;
+    width: 100%;
+    max-width: 450px;
+}
