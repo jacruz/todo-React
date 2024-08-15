@@ -1,10 +1,11 @@
-import {useContext, useState} from "react";
-import {ItemsContext, ItemsDispatchContext} from "../contexts/ItemContext";
+import {useState} from "react";
+import useItems from "../hooks/useItems";
+import useItemsDispatch from "../hooks/useItemsDispatch";
 
 export default function AddItem(){
     const [text, setText] = useState('');
-    const items = useContext(ItemsContext);
-    const dispatch = useContext(ItemsDispatchContext);
+    const items = useItems();
+    const dispatch = useItemsDispatch();
 
     return (
         <div className="add-item">

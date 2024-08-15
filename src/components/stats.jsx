@@ -1,8 +1,7 @@
-import { useContext } from "react";
-import { ItemsContext } from "../contexts/ItemContext";
+import useItems from "../hooks/useItems";
 
 export default function Stats(){
-    const items = useContext(ItemsContext);
+    const items = useItems();
     const dones = items.reduce((acum,val)=>{
         if(val.done)
             acum++;

@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# TODO list. React app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
 
-## Available Scripts
+Estudio personal en HTML y hojas de estilo CSS. Busco convertir la investigación en landing pages y web applications de sitios ficticios inpirados en el moodboard 'Dev' en mi [<img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Pinterest_colored_svg-512.png" alt="drawing" width="15"/> Pinterest](https://pin.it/5y19mMg), el cual alimento y refresco contínuamente. En esta ocasión la exploración corresponde a la creación de una aplicación tipo lista de pendientes (TODO list) hecha con React JS y Sass.
 
-In the project directory, you can run:
+Aquí puedes explorar la [Demo funcional](https://todo-react.onrender.com).
+ 
+Y aquí puedes ver [todo mi portafolio!!!](https://jonnathan.site) -> Ready to Roll Out! <img src="assets/images/smart-glasses.png" alt="geek" width="20"/>
 
-### `npm start`
+## Instalación
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ejecutar los siguientes comandos en la raíz del proyecto: 
+<pre>
+npm install
+npm start
+</pre>
+Navegar a la URL: <pre>http://localhost:3000/</pre>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+<img align="center" src="assets/images/screenshots/screenshot_1.png" alt="drawing" width="500"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Pruebas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Funcionalidades de la aplicación:
+- Cargar por defecto los items que se encuentran en src/data/data.jsx
+- Agregar nuevos items
+- Eliminar items
+- Editar con opción de aceptar o cancelar la edición
+- La estadística se presenta en el círculo amarillo como items marcados / total de items
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img align="center" src="assets/images/screenshots/screenshot_2.png" alt="drawing" width="500"/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Licencia
 
-### `npm run eject`
+Este código se distribuye bajo licencia GPLv3.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Créditos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Tutoriales:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- https://learn.microsoft.com/en-us/training/paths/react/
+- https://www.geeksforgeeks.org/reactjs-jsx-introduction/?ref=lbp
+- https://react.dev/learn/
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Inspiración principal:
+<a href="https://www.freecodecamp.org/news/build-a-todo-app-from-scratch-with-reactjs/">
+    <img align="center" src="https://lh7-us.googleusercontent.com/c6jXW1lvtqwDfabL0JRlt4C136nqXe-S5PRJKMywRKzuErt9sFnaXTbKl3tKFe2ZWEK2kIMSk1eDAEN5HtyFKbmsRo2nuXabVD-w8h1WNJnInEn5Gc3elHLGd0xOMonokRFA0tqiS8fxr64is1pFOwg" alt="drawing" width="500"/>
+</a>

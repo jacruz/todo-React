@@ -1,5 +1,5 @@
 import { todoList } from "../assets/data";
-import {createContext, useContext, useReducer} from "react";
+import {createContext, useReducer} from "react";
 
 export const ItemsContext = createContext(null);
 export const ItemsDispatchContext = createContext(null);

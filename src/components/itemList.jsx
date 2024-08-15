@@ -1,13 +1,14 @@
-import {useContext, useState} from "react";
-import { ItemsContext, ItemsDispatchContext } from "../contexts/ItemContext";
+import {useState} from "react";
+import useItems from "../hooks/useItems";
+import useItemsDispatch from "../hooks/useItemsDispatch";
 export default function ItemList(){
     
-    const todoList = useContext(ItemsContext);
+    const items = useItems();
 
     return (
         <div className="item-list">
             <ul>
-                {todoList.map(item=>(
+                {items.map(item=>(
                     <li key={item.id}>
                         <Item item={item}></Item>
                     </li>
@@ -20,7 +21,7 @@ export default function ItemList(){
 function Item({item}){
     const [isEditting, setIsEditting] = useState(false);
     const [newText, setNewText] = useState('');
-    const dispatch = useContext(ItemsDispatchContext);
+    const dispatch = useItemsDispatch();
 
     return (
         <div className="item">
