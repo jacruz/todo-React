@@ -4,7 +4,7 @@
 
 Estudio personal en HTML y hojas de estilo CSS. Busco convertir la investigación en landing pages y web applications de sitios ficticios inpirados en el moodboard 'Dev' en mi [<img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Pinterest_colored_svg-512.png" alt="drawing" width="15"/> Pinterest](https://pin.it/5y19mMg), el cual alimento y refresco contínuamente. En esta ocasión la exploración corresponde a la creación de una aplicación tipo lista de pendientes (TODO list) hecha con React JS y Sass.
 
-Aquí puedes explorar la [Demo funcional](https://todo-react.onrender.com).
+Aquí puedes explorar la [Demo funcional](https://todo-react-5fwk.onrender.com).
  
 Y aquí puedes ver [todo mi portafolio!!!](https://jonnathan.site) -> Ready to Roll Out! <img src="assets/images/smart-glasses.png" alt="geek" width="20"/>
 
